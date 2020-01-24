@@ -17,6 +17,37 @@ _metatypes = {
         'encrypt': type6.encrypt
     },
     
+    0x457B83F0: {
+        'key': 0x5B,
+        'seed': '771C065F53EC3FFC22CE5A27FF78A848',
+        'decrypt': type6.decrypt,
+        'encrypt': type6.encrypt
+    },
+    
+    0x4C9487F0: {
+        'key': 0x43,
+        'seed': '81D1128935C8EA8BE0022D2D6A1867B8',
+        'decrypt': type6.decrypt,
+        'encrypt': type6.encrypt
+    },
+    
+    0x4C948DF0: {
+        'key': 0x43,
+        'seed': '9843FF8568B2DB3BD422D04FAB5F0A31',
+        'decrypt': type6.decrypt,
+        'encrypt': type6.encrypt
+    },
+    
+    
+    
+    0x380283F0: {
+        'key': 0x5A,
+        'seed': '34200C8EA1867984AF13AE34776FEA89',
+        'decrypt': type6.decrypt,
+        'encrypt': type6.encrypt
+    },
+    
+   
     0x4C9418F0: {
         'key': 0x43,
         'seed': '2E8E97A28542707318DAA08AF862A2B0',
@@ -40,6 +71,13 @@ _metatypes = {
         'seed': 'EB1B530B624932581F830AF4993D75D0',
         'decrypt': type9.decrypt,
     },
+    
+#    0x4C9420F0: {
+#        'key': 0x43,
+#        'seed': 'EB1B530B624932581F830AF4993D75D0',
+#        'decrypt': type9.decrypt,
+#    },
+    
     0x4C9417F0: {
         'key': 0x43,
         'seed': 'BAE2A31207FF041B64A51185F72F995B',

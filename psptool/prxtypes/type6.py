@@ -83,6 +83,7 @@ class prx_header_6(object):
 
 
 def decrypt(prx, meta):
+    
     xorbuf = expand_seed(meta['seed'], meta['key'])
 
     # check if range contains nonzero

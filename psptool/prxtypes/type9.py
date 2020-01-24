@@ -59,6 +59,7 @@ class prx_header_9(object):
 
 
 def decrypt(prx, meta, **kwargs):
+    print ('type 9')
     xorbuf = expand_seed(meta['seed'], meta['key'])
 
     # check if range contains nonzero
@@ -96,6 +97,7 @@ def decrypt(prx, meta, **kwargs):
 
     # sanity check that our SHA1 actually matches
     if h.digest() != p.sha1_hash():
+        print("bad SHA1")
         return False
 
     # decrypt the kirk block
