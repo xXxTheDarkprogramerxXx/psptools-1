@@ -67,7 +67,7 @@ def decrypt(prx, meta, **kwargs):
 
     p = prx_header_9(prx)
 
-    print(meta['pubkey'])
+    #print(meta['pubkey'])
     print(p.prx_ecdsa().hex())
 
     # check ECDSA signature
