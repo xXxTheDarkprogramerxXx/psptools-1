@@ -58,7 +58,17 @@ _metatypes = {
         'decrypt': type9.decrypt,
     },
     
+    0x4C9412F0: {
+        'key': 0x43,
+        'seed': '26380AACA5D874D132B72ABF799E6DDB',
+        'decrypt': type9.decrypt,
+    },
     
+    0x4C9413F0: {
+        'key': 0x43,
+        'seed': '53E7ABB9C64A4B779217B5740ADAA9EA',
+        'decrypt': type9.decrypt,
+    },
     
     
     0x457B0AF0: {
