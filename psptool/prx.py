@@ -17,6 +17,50 @@ _metatypes = {
         'encrypt': type6.encrypt
     },
     
+    0x4C9418F0: {
+        'key': 0x43,
+        'seed': '2E8E97A28542707318DAA08AF862A2B0',
+        'decrypt': type9.decrypt,
+    },
+    
+    0x4C9419F0: {
+        'key': 0x43,
+        'seed': '582A4C69197B833DD26161FE14EEAA11',
+        'decrypt': type9.decrypt,
+    },
+    
+    0x457B10F0: {
+        'key': 0x5B,
+        'seed': '7110F0A41614D59312FF7496DF1FDA89',
+        'decrypt': type9.decrypt,
+    },
+    
+    0x4C9416F0: {
+        'key': 0x43,
+        'seed': 'EB1B530B624932581F830AF4993D75D0',
+        'decrypt': type9.decrypt,
+    },
+    0x4C9417F0: {
+        'key': 0x43,
+        'seed': 'BAE2A31207FF041B64A51185F72F995B',
+        'decrypt': type9.decrypt,
+    },
+    
+    0x4C941FF0: {
+        'key': 0x43,
+        'seed': '2C8EAF1DFF79731AAD96AB09EA35598B',
+        'decrypt': type9.decrypt,
+    },
+    
+    0x4C9415F0: {
+        'key': 0x43,
+        'seed': '701B082522A14D3B6921F9710AA841A9',
+        'decrypt': type9.decrypt,
+    },
+    
+    
+    
+    
     0x457B0AF0: {
         'key': 0x5B,
         'seed': 'E8BE2F06B1052AB9181803E3EB647D26',

@@ -158,7 +158,7 @@ class PSAR(object):
         for path in self.directories:
             pathlib.Path(path.replace(':','').replace('/','\\')).mkdir(parents=True, exist_ok=True)
         for file in self.files:
-            if('ipl:/' not in file['name']):
+            if('ipl' not in file['name']):
                 with open(file['name'].replace(':','').replace('/','\\'), 'wb') as f:
                     f.write(file['data']['file'])
             if('.prx' in file['name']):
